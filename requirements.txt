@@ -1,0 +1,5 @@
+mcp>=1.28,<2  # v2 renamed FastMCP -> MCPServer; this server uses the v1 API
+google-api-python-client>=2.198
+youtube-transcript-api>=1.2,<2
+python-dotenv>=1.0
+yt-dlp[default]>=2026.11.23  # frame tools; also needs ffmpeg + a JS runtime (Node or Deno) on PATH
